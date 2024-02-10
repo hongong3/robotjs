@@ -9,7 +9,7 @@
     "test:darwin:linux": "jasmine test/**/*.js",
     "test-keyboard": "node test/keyboard.js",
     "test:win32": "jasmine test/**/*.js",
-    "install-main": "node-gyp-build",
+    "install": "node-gyp-build",
     "install-debug": "node-gyp-build --debug",
     "prebuild": "prebuildify -t 16.0.0 --napi --strip",
     "prebuild-darwin-universal": "prebuildify --napi --strip --arch x64+arm64",
